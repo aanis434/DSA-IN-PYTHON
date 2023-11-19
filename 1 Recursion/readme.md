@@ -3,9 +3,8 @@
 1. Recusion case - the flow
     ``` n = n * factorial(n-1) ```
 2. Base case - the stopping citeria
-    ``` if n in [0,1]:
-        return 1
-    ```
+    ```if n in [0,1]:
+            return 1```
 3. Unintentional case - the constraint 
     ``` assert n >= 0 and int(n) == n, 'The number must be positive integer.' ```
 
@@ -16,7 +15,7 @@
 4. It is used in many algorithms (divide and conquer, greedy and dynamic programming)
 
 ### Recursive vs Iterative Solutions
-**Points**              **Recursion**           **Iteration**           **Notes**
+**Points**--------------**Recursion**------------**Iteration**---------------**Notes**
 * Space efficient?          No                        Yes              No stack memory require in case of iteration
 * Time efficient?           No                        Yes              In case of recursion system needs more time for
                                                                        pop and push elements to stack memory which makes recursion less time efficient
