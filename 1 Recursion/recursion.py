@@ -63,6 +63,8 @@ def powerOfTwoIt(n):
         i = i + 1
     return power
 
+pow()
+
 
 print(powerOfTwoIt(4))
 
@@ -70,6 +72,9 @@ print(powerOfTwoIt(4))
 
 
 def factorial(n):
+    # factorial is the product of all possible integers less than or equal to n.
+    # n! = n * (n-1) * (n-2) * .....
+    # 4! = 4 * 3 * 2 * 1 = 24
     assert n >= 0 and int(n) == n, 'The number must be positive integer only!'
     if n in [0,1]:
         return 1
@@ -80,6 +85,9 @@ def factorial(n):
  ## Fibonacci###
 
 def fibonacci(n):
+    # fobonacci sequence is a sequence of numbers in which each number is the sum of the two preceding ones and the sequence starts from 0,1 
+    # 0,1,,1,2,3,5,8,13,21,34,55,89,.......
+
     assert n >=0 and int(n) == n , 'Fibonacci number cannot be negative number or non integer.'
     if n in [0,1]:
         return n
